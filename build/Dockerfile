@@ -1,8 +1,8 @@
-FROM alpine
+FROM ubuntu:18.04
 
-RUN echo "hola desde el contenedor";
+RUN apt-get update \
+        && apt-get install -y --no-install-recommends sl
 RUN mkdir /app
 COPY src /app
 RUN chmod 777 /app/tren.sh
-RUN apk add sl --no-cache
 CMD app/tren.sh

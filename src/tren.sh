@@ -1,2 +1,2 @@
-echo "Viene un tren";
+echo "Generando un tren...";
 sl -a;
