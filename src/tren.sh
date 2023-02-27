@@ -1,2 +1,4 @@
-echo "Generando un tren...";
-sl -a;
+echo "   o O___ _________
+ _][__|o| |O O O O|
+<_______|-|_______|
+ /O-O-O     o   o";
